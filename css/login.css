@@ -1,0 +1,47 @@
+body{
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 30vh;
+    background: linear-gradient(rgba(137, 149, 199, 0.467), rgb(226, 173, 173));
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.email__name{
+    margin-bottom: 20px;
+}
+
+.email__name input{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.password__name{
+    margin-bottom: 30px;
+    margin-right: 25px;
+}
+
+.password__name input{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.button__log{
+    padding: 30px;
+    border: 1px solid rgb(1, 4, 10);
+    border-radius: 30px;
+    background: linear-gradient(rgba(48, 53, 73, 0.467), rgb(253, 234, 234));
+    transition: 0.5s;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.button__log:hover{
+    transition: 0.5s;
+    background: rgba(48, 53, 73, 0.467);
+}
+
+.load{
+    font-size: 30px;
+    display: none;
+}

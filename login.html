@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <form name="publish">
+        <div class="email__name">Email:
+            <input onchange="javascript:data(this);" type = "text" name = "email:" placeholder="entry your email">
+        </div>
+        
+        <div class="password__name">Password:
+            <input onchange="javascript:data(this);" type = "password" name = "password" placeholder="your password">
+        </div>
+        </form>
+        
+    </div>
+    
+    <button class="button__log" onclick="setTimeout(transit, 2000)" id="btn">Login</button>
+    <div class="load" id="load"><i class="fa fa-spinner fa-spin"></i></div>
+    
+    
+    <script src="./js/login.js"></script>
+    
+</body>
+</html>

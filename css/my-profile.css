@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(226, 173, 173), rgba(137, 149, 199, 0.467));
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.button__back{
+    cursor: pointer;
+    padding: 30px;
+    font-size: 24px;
+    border: 1px solid rgb(1, 4, 10);
+    border-radius: 30px;
+    background: linear-gradient(rgba(48, 53, 73, 0.324), rgb(215, 242, 184));
+    transition: 0.5s;
+}
+
+.button__back:hover{
+    transition: 0.5s;
+    background: rgba(48, 53, 73, 0.467);
+}
